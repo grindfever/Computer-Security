@@ -3,13 +3,13 @@
 
 ### Identification:
 - BlueKeep (CVE-2019-0708) is a critical vulnerability found in the implementation of Microsoft's Remote Desktop Protocol (RDP). This flaw allows for remote code execution, making it a significant threat.
-- Applications/Operating Systems: Microsoft Windows, especially in its older versions before being patched.
+- **Applications/Operating Systems:** Microsoft Windows, especially in its older versions before being patched.
 
 ### Cataloging:
 - First observed by the United Kingdom's National Cyber Security Centre, reported to Microsoft in March 2019.
 - According to the National Vulnerability Database (NVD), CVE-2019-0708 is rated as critical, with scores of 10.0 and 9.8 in versions 2 and 3, indicating a high risk of remote code execution without authentication.
 - **Bug Bounty:** In 2019, Microsoft announced a Bug Bounty program for BlueKeep, offering rewards for security reports related to that vulnerability.
-- Fixes: Microsoft released security patches in May 2019.
+- **Fixes:** Microsoft released security patches in May 2019.
 
 ### Exploit:
 - In Metasploit, there are specific modules designed to automate the exploitation and compromise of systems vulnerable to BlueKeep.
